@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+       body{
+           background-color: aqua;
+       }
+       h1{
+           font-size: xx-large;
+           text-align: center;
+       }
+       ul{
+         text-align: center;
+       }
+       li{
+           text-align: center;
+       }
+   </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%= title %> </title>
+  
+</head>
+<body>
+    <h1>PlayGround </h1>
+    <ul>
+         <% for(let i=1;i<10;i++) { %>
+            <li>
+                <%= i%>
+            </li>
+            <% } %>
+
+           <% if(true){ %>
+                <h1>Well done its true </h1>
+            <% }else{ %>
+              <p>Its false </p>
+            <% } %>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,1 @@
+console.log('my scrpt is loaded');
